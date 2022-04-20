@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+:root{
+    --feature-color: pink;
+    --gradient-center-color: rgba(140, 89, 0,0.35);
+    --gradient-edge-color: rgb(136, 100, 0);
+
+}
+
+* a:active{
+    color: pink;
+}
+
+@keyframes link-fade{
+    from{color: var(--feature-color)}
+    to{color: rgb(255, 189, 255);}
+
+}
+
+body{
+    background-color: cyan;
+    background-image: url('images/BackOnEarth_002_SCALED.png');
+    background-size: 100%;
+    background-position: center;
+    background-position-y: 70%;
+    background-repeat: no-repeat;
+
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    position: 50px 0px;
+    background: linear-gradient(var(--gradient-edge-color),  var(--gradient-center-color));
+    width: 100%;
+    height: 50px;
+    color: var(--feature-color);
+
+}
+
+
+.clear{
+    opacity: 100%;
+    display: inline;
+
+
+}
+
+.card-bumper{
+    
+padding: 10%;
+
+}
+
+.main-card{
+    padding-top: 50% ;
+    margin: auto auto;
+    padding: 20px;
+    border-radius: 15px;
+    float: center;
+    align-items: center;
+    background: linear-gradient(var(--gradient-edge-color),  var(--gradient-center-color));
+    height: 300px;
+    width: 300px;
+    color: var(--feature-color);
+    text-align: center;
+}
+
+.social-tags{
+    color: black;
+    text-align: center;
+    padding: 10px 15%;
+    
+    align-items: center;
+    display: grid;
+    column-width: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 10px;
+
+    
+
+}
+
+.icon{
+
+}
+
+.icon img{
+    height: 50px;
+    width: 50px;
+
+}
+
+.Newgrounds-Icon{
+    width: 50px;
+
+}
+
+.email-links{
+    text-align: left;
+    padding: 5px 20%;
+}
+
+
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    position: 50px 0px;
+    background: linear-gradient(to top, var(--gradient-edge-color),  var(--gradient-center-color));
+    width: 100%;
+    height: 50px;
+    color: var(--feature-color);
+
+}
+
+* a{
+    text-decoration: none;
+    color: var(--feature-color);
+
+}
+
+* a:hover{
+    animation: link-fade 0.2s;
+    animation-iteration-count: initial;
+    color: rgb(255, 189, 255);
+
+}
+
+.links{
+    margin: 9px;
+    margin-left: 50px;
+    text-align: center;
+    
+}
+
+.general-info{
+    float: left;
+    align-content: left;
+    padding: 15px;
+
+}
+
+.updates{
+    float: right;
+    align-content: right;
+    padding: 15px 15px;
+}
+
+.pop-up{
+    background-color: white;
+    position: fixed;
+    bottom: -40px;
+
+}
