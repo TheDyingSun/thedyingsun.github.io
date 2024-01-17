@@ -9,7 +9,7 @@
 :root{
     --feature-color: pink;
     --gradient-center-color: rgba(140, 89, 0,0.35);
-    --gradient-edge-color: rgb(136, 100, 0);
+    --gradient-edge-color: white;
 
 }
 
