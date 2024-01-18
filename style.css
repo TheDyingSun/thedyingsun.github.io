@@ -9,7 +9,7 @@
 :root{
     --feature-color: pink;
     --gradient-center-color: rgba(140, 89, 0,0.35);
-    --gradient-edge-color: white;
+    --gradient-edge-color: goldenrod;
 
 }
 
@@ -26,9 +26,9 @@
 body{
     background-color: cyan;
     background-image: url('images/BackOnEarth_002_SCALED.png');
-    background-size: 100%;
+    background-size: auto;
     background-position: center;
-    background-position-y: 70%;
+    background-position-x: 60%;
     background-repeat: no-repeat;
 
 }
